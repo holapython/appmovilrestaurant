@@ -1,4 +1,4 @@
-package com.wolffox.aufr.apprestaurante;
+    package com.wolffox.aufr.apprestaurante;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -18,14 +18,23 @@ import com.wolffox.aufr.apprestaurante.Clases.Pedido;
 public class MenuActivity extends AppCompatActivity {
 
     ListView lvMenus;
-    String[] theNamesMenu = {"Comida1", "Comida2", "Comida3"};
-    String[] theDescriptionsMenu = {"Description1", "Description2", "Description3"};
+    String[] theNamesMenu = {"pollo al cilindro", "trucha", "pachamanca mixta"};
+    String[] theDescriptionsMenu = {"En un bol se coloca el pisco y el ajo triturado (menjunje químico), luego adicionamos extracto de kión, sal, azúcar y salsa de soya clara. Esta primera base se deja  4 a 6 horas o toda la anoche", "Aprende a preparar esta estupenda trucha al horno que te proponemos en esta receta. Seguro que si nunca la has probado te va a sorprender lo rica que queda y lo sencillo que se prepara", "\n" +
+            "Inicio Como preparar Pachamanca Pachamanca Recetas andinas Recetas con carnes Recetas peruanas\n" +
+            "Pachamanca\n" +
+            "\n" +
+            "  0:41   P  , PACHAMANCA  , RECETAS ANDINAS  , RECETAS CON CARNES  , RECETAS PERUANAS\n" +
+            "La PACHAMANCA es un plato que se prepara en todos los departamentos de la Sierra del Perú"};
     String[] thePricesMenu = {"10.00", "20.00", "30.00"};
     int[] theImagesMenu = {R.drawable.menu, R.drawable.menu, R.drawable.menu};
 
     ListView lvExtras;
-    String[] theNamesExtra = {"Extra1", "Extra2", "Extra3"};
-    String[] theDescriptionsExtra = {"Description1", "Description2", "Description3"};
+    String[] theNamesExtra = {"Escabeche", "Cuy Chactado", "chicharron de chancho"};
+    String[] theDescriptionsExtra = {"El escabeche peruano es un plato que puede consumirse tanto en reuniones familiares como durante la semana", "Un cuy \n +
+            "Media taza de aceite.\n" +
+            "Dos dientes de ajo molido.\n" +
+            "Limón.\n" +
+            "Sal y cominos al gusto.", "preparado con carne de chancho,  papas y mote y ensalada"};
     String[] thePricesExtra = {"40.00", "50.00", "60.00"};
     int[] theImagesExtra = {R.drawable.extra, R.drawable.extra, R.drawable.extra};
 
