@@ -36,7 +36,6 @@ import java.util.List;
 import static android.Manifest.permission.READ_CONTACTS;
 
 /**
- * jhon
  * A login screen that offers login via email/password.
  */
 public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<Cursor> {
@@ -51,7 +50,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
      * TODO: remove after connecting to a real authentication system.
      */
     private static final String[] DUMMY_CREDENTIALS = new String[]{
-            "juan@unajma.com:pichihua", "restaurante@unajma.com:pichihua"
+            "food@example.com:hello", "fat@example.com:world"
     };
     /**
      * Keep track of the login task to ensure we can cancel it if requested.
